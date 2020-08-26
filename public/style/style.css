@@ -1,0 +1,167 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+    font-weight: 800;
+}
+
+form {
+    display: block;
+    margin: 32px auto;
+    max-width: 400px;
+    text-align: right;
+}
+
+form input[type="text"] {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 4px 8px;
+    width: 100%;
+    margin: 0 0 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 4px 8px;
+    width: 200px;
+    margin: 0 0 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+form textarea {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 4px 8px;
+    width: 100%;
+    margin: 0 0 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100px;
+    resize: vertical;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+form label {
+    display: block;
+    margin: 0 0 4px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.messages-items {
+    text-align: left;
+    margin: 32px 0;
+}
+
+.messages-items .item {
+    margin: 16px 0;
+}
+
+.messages-items p {
+    margin: 4px 0;
+}
+
+.messages-items .message-author {
+    font-weight: 700;
+}
+
+.messages-items .message-date {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+}
+
+.pagination {
+    list-style: none;
+    display: block;
+    margin: 32px 0;
+    text-align: center;
+}
+
+.pagination li {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #636b6f;
+    text-decoration: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.pagination span {
+    color: #636b6f;
+    text-decoration: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.pagination .page-link {
+    color: #636b6f;
+    text-decoration: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 0;
+    border: none;
+}
+
+.pagination .page-item.active .page-link {
+    border: none;
+    background: none;
+    opacity: .5;
+}
+
+.alert p {
+    margin: 0;
+}
