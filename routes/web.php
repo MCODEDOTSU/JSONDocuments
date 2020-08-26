@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::redirect('/', '/messages');
+Route::get('/', 'MessageController@index');
 
 Route::resource('messages', 'MessageController')->only([
     'index', 'store'
