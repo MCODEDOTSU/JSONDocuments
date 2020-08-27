@@ -2,7 +2,7 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\src\Models\Message;
+use App\src\Models\Document;
 use Faker\Generator as Faker;
 use Illuminate\Support\Str;
 
@@ -17,10 +17,6 @@ use Illuminate\Support\Str;
 |
 */
 
-$factory->define(Message::class, function (Faker $faker) {
-    return [
-        'author' => $faker->name,
-        'text' => $faker->realText(),
-        'created_at' => now(),
-    ];
+$factory->define(Document::class, function (Faker $faker) {
+    return [ ];
 });

@@ -17,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::prefix('/v1')->group(function () {
+    Route::resource('document', 'DocumentController')->only([
+        'index', 'store', 'show', 'update'
+    ]);
+    Route::post('document/{id}/publish', 'DocumentController@publish');
+});

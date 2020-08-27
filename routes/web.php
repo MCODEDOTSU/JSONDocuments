@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'MessageController@index');
-
-Route::resource('messages', 'MessageController')->only([
-    'index', 'store'
-]);
+Route::get('/', function() {
+    return view('index');
+});

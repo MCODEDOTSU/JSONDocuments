@@ -475,6 +475,13 @@ class ComposerStaticInit571e5de4e0e0fb1b2bdc986a54bdc177
     );
 
     public static $prefixesPsr0 = array (
+        'W' => 
+        array (
+            'Webpatser\\Uuid' => 
+            array (
+                0 => __DIR__ . '/..' . '/webpatser/laravel-uuid/src',
+            ),
+        ),
         'M' => 
         array (
             'Mockery' => 
@@ -499,7 +506,7 @@ class ComposerStaticInit571e5de4e0e0fb1b2bdc986a54bdc177
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-        'App\\Http\\Controllers\\MessageController' => __DIR__ . '/../..' . '/app/Http/Controllers/MessageController.php',
+        'App\\Http\\Controllers\\DocumentController' => __DIR__ . '/../..' . '/app/Http/Controllers/DocumentController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -515,9 +522,9 @@ class ComposerStaticInit571e5de4e0e0fb1b2bdc986a54bdc177
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
-        'App\\src\\Models\\Message' => __DIR__ . '/../..' . '/app/src/Models/Message.php',
-        'App\\src\\Repositories\\MessageRepository' => __DIR__ . '/../..' . '/app/src/Repositories/MessageRepository.php',
-        'App\\src\\Services\\MessageService' => __DIR__ . '/../..' . '/app/src/Services/MessageService.php',
+        'App\\src\\Models\\Document' => __DIR__ . '/../..' . '/app/src/Models/Document.php',
+        'App\\src\\Repositories\\DocumentRepository' => __DIR__ . '/../..' . '/app/src/Repositories/DocumentRepository.php',
+        'App\\src\\Services\\DocumentService' => __DIR__ . '/../..' . '/app/src/Services/DocumentService.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/CorsService.php',
@@ -2679,7 +2686,6 @@ class ComposerStaticInit571e5de4e0e0fb1b2bdc986a54bdc177
         'League\\MimeTypeDetection\\FinfoMimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/FinfoMimeTypeDetector.php',
         'League\\MimeTypeDetection\\GeneratedExtensionToMimeTypeMap' => __DIR__ . '/..' . '/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php',
         'League\\MimeTypeDetection\\MimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/MimeTypeDetector.php',
-        'MessagesSeeder' => __DIR__ . '/../..' . '/database/seeds/MessagesSeeder.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
@@ -4826,6 +4832,7 @@ class ComposerStaticInit571e5de4e0e0fb1b2bdc986a54bdc177
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
+        'Tests\\Feature\\MessageTest' => __DIR__ . '/../..' . '/tests/Feature/MessageTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
@@ -4848,6 +4855,8 @@ class ComposerStaticInit571e5de4e0e0fb1b2bdc986a54bdc177
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Webmozart\\Assert\\Mixin' => __DIR__ . '/..' . '/webmozart/assert/src/Mixin.php',
+        'Webpatser\\Uuid\\Uuid' => __DIR__ . '/..' . '/webpatser/laravel-uuid/src/Webpatser/Uuid/Uuid.php',
+        'Webpatser\\Uuid\\UuidServiceProvider' => __DIR__ . '/..' . '/webpatser/laravel-uuid/src/Webpatser/Uuid/UuidServiceProvider.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',
         'Whoops\\Exception\\Frame' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Frame.php',
